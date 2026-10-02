@@ -1,0 +1,110 @@
+.comtacto.html{
+	border:10px solid #35D5F2;
+	width:40%;
+	float:left;
+	border:-radius:20px ;
+	background:#35F265 ;
+	margin:20px;
+}
+
+.servicios.html{
+	border:6px solid #35D5F2;
+	width:45%;
+	float:left;
+	border:-radius:20px ;
+	background:#35F265 ;
+	margin:20px;
+
+}
+
+.servicios.html{
+	float: left;
+	width: 15%;
+	margin: 20px;
+	border-radius: 20px;
+	background: lightpink;
+	border: 6px solid hotpink;
+	height:300px ;
+}
+
+header{
+	background-color: #E9F1FB;
+	border-bottom: 3px solid #4BCBD2;
+	padding: 10px 20px;
+}
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.logo{
+	font-size: 18px;
+	font-weight: bold;/*negritas*/
+	color: #78A594;
+}
+
+nav ul{
+	list-style: none;/*quitar viñetas*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #4082DD;
+	font-weight: 600;
+	padding: 8px 12px;
+	border-radius: 4px;
+	transition: background-color 0.5s, color 0.5s ;
+}
+
+nav ul li a:hover{
+	background-color: #A484D7;
+	color: #8F57C7;
+
+
+}
+
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 30px;
+font-size: 14px;
+clear: both;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
